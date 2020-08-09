@@ -1,0 +1,12 @@
+<a class="skip-link | button" href="#main-content">Skip to main content</a>
+<header role="banner">
+  <nav>
+    <ul>
+      {% for item in navigation.items %}
+        <li>
+          <a href="{{ item.href }}" {{ helpers.getLinkActiveState(item.href, page.url) | safe }}>{{ item.text }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
