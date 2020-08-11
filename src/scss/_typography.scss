@@ -15,7 +15,7 @@ h5 {
   font-weight: bold;
   color: $cornflower--200;
 
-  &::after {
+  &[data-variant='dot']::after {
     content: '.';
     color: $ruby--200;
     display: inline;
