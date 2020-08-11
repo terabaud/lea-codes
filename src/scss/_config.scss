@@ -1,6 +1,13 @@
-$primary-fg: #000000;
+$base-size: 16px;
 
-$size--400: 16px;
+$size--300: $base-size * 0.75;
+$size--400: $base-size;
+$size--500: $base-size * 1.33;
+$size--600: $base-size * 1.77;
+$size--700: $base-size * 2.36;
+$size--800: $base-size * 3.15;
+$size--900: $base-size * 4.2;
+$size--big: $base-size * 5.6;
 
 $black-coffee--100: #86787c;
 $black-coffee--200: #5f5554;
