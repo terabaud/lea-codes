@@ -3,8 +3,12 @@
   color: #fff;
   height: 33vmin;
   display: flex;
-  justify-content: center;
   align-items: center;
+
+  * {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
   h1,
   h2,
@@ -12,6 +16,7 @@
   h4,
   h5 {
     color: #fff;
+    width: 100%;
 
     &.dot::after {
       content: '.';
