@@ -1,0 +1,9 @@
+<nav class="navigation">
+  <ul>
+    {% for item in navigation.items %}
+      <li>
+        <a href="{{ item.href }}" {{ helpers.getLinkActiveState(item.href, page.url) | safe }}>{{ item.text }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

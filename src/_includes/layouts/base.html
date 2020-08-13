@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>{{ site.name }}</title>
     <style>
-      {% include 'css/main.css' %}
+      {% include 'css/index.css' %}
     </style>
   </head>
   <body>
-    {% include 'partials/header.html' %}
+    {% include 'partials/skip-link.html' %}
+    <header class="header" role="banner">
+      {% include 'partials/navigation.html' %}
+      {% block hero %}{% endblock %}
+    </header>
     <main class="main" tabindex="-1" id="main-content">
       {% block content %}
         {{ content | safe }}
