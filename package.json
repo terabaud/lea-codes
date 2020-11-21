@@ -10,7 +10,7 @@
     "watch-css": "sass src/scss/:src/_includes/css/ --watch",
     "build": "npm run build-css -s && npm run build-11ty -s",
     "predeploy": "cross-env ELEVENTY_ENV=production npm run build -s",
-    "deploy": "gh-pages -d public",
+    "deploy": "cp CNAME public && gh-pages -d public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
