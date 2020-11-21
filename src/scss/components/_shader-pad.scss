@@ -1,0 +1,18 @@
+shader-pad {
+  display: flex;
+
+  textarea {
+    font-family: monospace;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #aaa;
+    font-size: 0.9rem;
+    background: transparent;
+    width: 50%;
+    height: 300px;
+  }
+
+  shader-canvas {
+    flex-grow: 1;
+  }
+}

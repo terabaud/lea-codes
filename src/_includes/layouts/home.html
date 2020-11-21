@@ -1,10 +1,9 @@
 {% extends "layouts/base.html" %}
-{% block hero %}
-  {% include 'partials/hero.html' %}
-{% endblock %}
 
 {% block content %}
-  <article>
-    {{ content | safe }}
-  </article>
+  <div class="wrapper">
+    <article class="article {{ variant }}">
+      {{ content | safe }}
+    </article>
+  </div>
 {% endblock %}

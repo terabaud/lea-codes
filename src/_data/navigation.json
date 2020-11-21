@@ -5,12 +5,24 @@
       "href": "/"
     },
     {
-      "text": "About",
-      "href": "/about/"
+      "text": "Maths",
+      "href": "/maths-basics/"
     },
     {
-      "text": "Work",
-      "href": "/work/"
+      "text": "WebGL",
+      "href": "/webgl/"
+    },
+    {
+      "text": "Three.js",
+      "href": "/threejs/"
+    },
+    {
+      "text": "Demos",
+      "href": "/demos/"
+    },
+    {
+      "text": "Links",
+      "href": "/links/"
     }
   ]
 }

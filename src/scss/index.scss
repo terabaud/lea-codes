@@ -1,14 +1,33 @@
-@import 'reset';
-@import 'config';
-@import 'utopia';
-@import 'typography';
+// ===============================
+// Third-Party
+// ===============================
+@import 'vendor/prism';
 
-// blocks
-@import 'blocks/skip-link';
-@import 'blocks/footer';
-@import 'blocks/header';
-@import 'blocks/main';
-@import 'blocks/hero';
+// ================================
+// Configuration
+// ================================
+@import 'config/reset';
+@import 'config/variables';
+@import 'config/typography';
+@import 'config/body';
 
-// utils
+// =================================
+// Utilities
+// =================================
 @import 'utils/visually-hidden';
+@import 'utils/full-fixed';
+@import 'utils/pixellated';
+
+// =================================
+// Components
+// =================================
+@import 'components/article';
+@import 'components/burger';
+@import 'components/button';
+@import 'components/footer';
+@import 'components/navigation';
+@import 'components/skip-link';
+@import 'components/shader-canvas';
+@import 'components/shader-pad';
+@import 'components/three-model-viewer';
+@import 'components/wrapper';

@@ -1,0 +1,30 @@
+{
+  "items1": [
+    {
+      "text": "Home",
+      "href": "/"
+    },
+    {
+      "text": "Contact",
+      "href": "/contact/"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "/privacy/"
+    }
+  ],
+  "items2": [
+    {
+      "text": "License",
+      "href": "/license/"
+    },
+    {
+      "text": "Code of Conduct",
+      "href": "/code-of-conduct/"
+    },
+    {
+      "text": "Contribution",
+      "href": "/contribution/"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+---
+title: 'Links'
+layout: 'layouts/content.html'
+---
+
+# Links
+
+## Learning resources
+
+These helped me getting started:
+
+- [https://webglfundamentals.org/](https://webglfundamentals.org/)
+- [https://thebookofshaders.com/](https://thebookofshaders.com/)
+- [https://threejsfundamentals.org/](https://threejsfundamentals.org)
+
+## My work
+
+- [First steps with WebGL](https://terabaud.github.io/hello-webgl/)
+- [GLea - GL experience artistry](https://terabaud.github.io/glea/) - Lea's WebGL library
+- [WebGL templates](https://github.com/terabaud/webgl-templates/) - Templates using different frameworks on top of WebGL
+- [My CodePen profile](https://codepen.io/terabaud/)

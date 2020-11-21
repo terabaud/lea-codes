@@ -3,22 +3,39 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>{{ site.name }}</title>
+    <meta name="description" content="{{ description }}" />
+    <x-base href="{{ site.url }}/"></x-base>
+    <title>{{ site.name }} – {{ title }}</title>
     <style>
       {% include 'css/index.css' %}
     </style>
   </head>
   <body>
     {% include 'partials/skip-link.html' %}
-    <header class="header" role="banner">
-      {% include 'partials/navigation.html' %}
-      {% block hero %}{% endblock %}
-    </header>
-    <main class="main" tabindex="-1" id="main-content">
+    {% include 'partials/navigation.html' %}
+    <shader-canvas class="shader-canvas | full-fixed" dpr="1" aria-hidden="true">
+      {% set vertexShader %}
+        {% include 'shaders/background.vs' %}
+      {% endset %}
+      {% set fragmentShader %}
+        {% include 'shaders/background.fs' %}
+      {% endset %}
+      <script type="vert">
+        {{ vertexShader | glslminify | safe }}
+      </script>
+      <script type="frag">
+        {{ fragmentShader | glslminify | safe }}
+      </script>
+    </shader-canvas>
+    <main id="main-content">
       {% block content %}
         {{ content | safe }}
       {% endblock %}
     </main>
     {% include 'partials/footer.html' %}
+    <script src="{{ site.url }}/js/vendor/prism.js"></script>
+    <script type="module" src="{{ site.url }}/js/main.esm.js"></script>
+    {% block scripts %}
+    {% endblock %}
   </body>
 </html>

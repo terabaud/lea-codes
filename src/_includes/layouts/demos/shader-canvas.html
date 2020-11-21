@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+
+{% set demoVertexShader %}
+  {% include 'shaders/demo.vs' %}
+{% endset %}
+{% set demoFragmentShader %}
+  {% include 'shaders/demo.fs' %}
+{% endset %}
+
+{% block content %}
+  <div class="wrapper">
+    <article class="article {{ variant }}">
+      {{ content | safe }}
+      <shader-pad>
+        <textarea spellcheck="false">{{ demoFragmentShader | trim }}</textarea>
+        <shader-canvas class="shader-canvas" dpr="1" aria-hidden="true">
+          <script type="vert">
+            {{ demoVertexShader | glslminify | safe }}
+          </script>
+          <script type="frag">
+            {{ demoFragmentShader | glslminify | safe }}
+          </script>
+        </shader-canvas>
+      </shader-pad>
+    </article>
+  </div>
+{% endblock %}
+
+
+{% block scripts %}
+<script type="module" src="{{ site.url }}/js/components/shader-pad.esm.js"></script>
+{% endblock %}

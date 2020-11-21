@@ -1,0 +1,14 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+  <div class="wrapper">
+    <article class="article {{ variant }}">
+      {{ content | safe }}
+    </article>
+    <three-model-viewer aria-label="A 3D model of a duck." aria-role="img"></three-model-viewer>
+  </div>
+{% endblock %}
+
+{% block scripts %}
+<script type="module" src="{{ site.url }}/js/components/three-modelviewer.esm.js"></script>
+{% endblock %}

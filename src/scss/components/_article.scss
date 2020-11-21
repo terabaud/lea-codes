@@ -1,0 +1,15 @@
+.article {
+  background: var(--main-bg);
+  padding: $size--600;
+  border-radius: $size--400;
+  margin-bottom: $size--500;
+
+  &--intro {
+    background: transparent;
+  }
+
+  img {
+    max-height: 300px;
+    margin: auto;
+  }
+}

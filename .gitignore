@@ -1,15 +1,8 @@
-# Misc
-*.log
+.log
 npm-debug.*
-*.scssc
-*.swp
 .DS_Store
-Thumbs.db
-.sass-cache
-.env
-.cache
+Thumbs.db 
 
-# Node modules and output
 node_modules
-dist
+public
 src/_includes/css
