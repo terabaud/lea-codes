@@ -68,6 +68,8 @@ You can use the three.js [`Shape`](https://threejs.org/docs/index.html#api/en/ex
 
 The [example from the official the threejs site](https://github.com/mrdoob/three.js/blob/master/examples/webgl_geometry_extrude_shapes2.html) parses an SVG path string and converts it into a bunch of three.js [`Shape`](https://threejs.org/docs/index.html#api/en/extras/core/Shape) objects. It is based on a d3 plugin that is currently abandoned: [d3-threeD](https://github.com/asutherland/d3-threeD/blob/master/lib/d3-threeD.js).
 
+Three.js also provides a ready-to-use [`SVGLoader`](https://threejs.org/docs/index.html#examples/en/loaders/SVGLoader) for that.
+
 ### Using text and fonts to create geometries
 
 Three.js provides a [`FontLoader`](https://threejs.org/docs/index.html#api/en/loaders/FontLoader) utility class. Fonts use a [`Font`](https://threejs.org/docs/index.html#api/en/extras/core/Font) data structure which is an array of [`Shape`](https://threejs.org/docs/index.html#api/en/extras/core/Shape) representing the font. The font file needs to be provided as a JSON file which can
