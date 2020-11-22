@@ -19,3 +19,11 @@ These helped me getting started:
 - [GLea - GL experience artistry](https://terabaud.github.io/glea/) - Lea's WebGL library
 - [WebGL templates](https://github.com/terabaud/webgl-templates/) - Templates using different frameworks on top of WebGL
 - [My CodePen profile](https://codepen.io/terabaud/)
+
+## Further resources
+
+### Using Three.js with React
+
+- [React Three Fiber](https://github.com/pmndrs/react-three-fiber)
+- [Drei](https://github.com/pmndrs/drei)
+- [Video Tutorial using the above two](https://www.youtube.com/watch?v=FGG0EeMNUl0)
