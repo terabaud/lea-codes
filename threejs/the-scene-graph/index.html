@@ -2,8 +2,14 @@
 const material = new THREE.MeshLambertMaterial({ color: 0x663399 });
 const sphere = new THREE.Mesh(geometry, material);
 </code></pre><p>To add this mesh to the scene, call:</p><pre><code class="language-js">scene.add(sphere);
-</code></pre><h3>Transformations</h3><p><em>Work in progress, girlfriend sends me to bed</em></p><pre><code class="language-js">sphere.position.set(1, 2, 3);
-</code></pre><h3>Iterating through the scene</h3><pre><code class="language-js">function traverseScene(sceneOrGroup) {
+</code></pre><h3>Positioning objects</h3><pre><code class="language-js">sphere.position.set(1, 2, 3);
+
+const DEG = Math.PI / 180;
+
+// set rotation of the object
+sphere.rotation.x = 45 * DEG;
+sphere.rotation.y = 45 * DEG;
+</code></pre><h3>Organizing in groups</h3><p>You can organize your objects in groups and then</p><h3>Iterating through the scene</h3><pre><code class="language-js">function traverseScene(sceneOrGroup) {
   for (let item of sceneOrGroup.children) {
     console.log(item);
     if (item.children &amp;&amp; item.children.length &gt; 0) {
