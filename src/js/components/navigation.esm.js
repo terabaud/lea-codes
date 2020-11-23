@@ -63,9 +63,6 @@ function findAnchorTag(el, maxNests = 3) {
 
 window.addEventListener('click', function (evt) {
   let baseUrl = $('x-base')?.getAttribute('href') || '/';
-  if (document.location.href.startsWith('https://terabaud.github.io')) {
-    baseUrl = 'https://terabaud.github.io/lea-codes';
-  }
   const el = findAnchorTag(evt.target);
   const href = el?.getAttribute('href');
   if (el && href) {
