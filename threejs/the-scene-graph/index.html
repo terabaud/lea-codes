@@ -9,7 +9,11 @@ const DEG = Math.PI / 180;
 // set rotation of the object
 sphere.rotation.x = 45 * DEG;
 sphere.rotation.y = 45 * DEG;
-</code></pre><h3>Organizing in groups</h3><p>You can organize your objects in groups and then</p><h3>Iterating through the scene</h3><pre><code class="language-js">function traverseScene(sceneOrGroup) {
+</code></pre><h3>Organizing in groups</h3><p>You can organize your objects in groups and then set the position and orientation of the group.</p><pre><code class="language-js">const group = new THREE.Group();
+group.add(sphere);
+
+group.position.set(1, 1, 1);
+</code></pre><h3>Iterating through the scene</h3><pre><code class="language-js">function traverseScene(sceneOrGroup) {
   for (let item of sceneOrGroup.children) {
     console.log(item);
     if (item.children &amp;&amp; item.children.length &gt; 0) {
