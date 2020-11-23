@@ -12,7 +12,10 @@ tags: ['three', 'hello-world']
 
 ### What's Three.js at all?
 
-Three.js is a 3D engine that works not only in WebGL. Next to WebGL, there are other renderers such as a SVGRenderer or CSSRenderer.
+Three.js is a 3D engine for the browser that can use WebGL for graphics rendering. Next to WebGL, there are other renderers such as a `SVGRenderer` or `CSS3DRenderer`.
+
+Three.js comes with geometries and rendering techniques and provides several cameras, materials, lighting techniques and more. It also provides a scene graph for organizing all your 3D data in scenes.
+
 The [official site](https://threejs.org) features a lot of examples you can explore there.
 
 In this chapter I will show a basic example of a three.js Hello World application.

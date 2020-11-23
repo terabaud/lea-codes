@@ -7,17 +7,15 @@ layout: 'layouts/content.html'
 # Contribution Guidelines
 
 Thank you for your interest in contributing.
-
-Contribution is very welcome. Currently, this is a one-woman project and there
-are no strict coding conventions yet.
-
-The only prerequisite is to don't be an asshole and follow the [Code of Conduct](../code-of-conduct/).
+Contribution is very welcome.
 
 Feel free to fork and help improving the project by creating a pull request.
-
-Don't be shy. Aside to code changes, help improving the documentation,
-this contribution guideline or the description of open issues is highly appreciated.
 
 Cheers,
 
 Lea
+
+## Prerequisites
+
+- Follow the [Code of Conduct](../code-of-conduct/).
+- The [code repository](https://github.com/terabaud/lea-codes) is available on [GitHub](https://github.com/)
