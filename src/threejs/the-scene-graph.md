@@ -31,13 +31,21 @@ To add this mesh to the scene, call:
 scene.add(sphere);
 ```
 
-### Transformations
-
-_Work in progress, girlfriend sends me to bed_
+### Positioning objects
 
 ```js
 sphere.position.set(1, 2, 3);
+
+const DEG = Math.PI / 180;
+
+// set rotation of the object
+sphere.rotation.x = 45 * DEG;
+sphere.rotation.y = 45 * DEG;
 ```
+
+### Organizing in groups
+
+You can organize your objects in groups and then
 
 ### Iterating through the scene
 
