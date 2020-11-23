@@ -66,6 +66,9 @@ window.addEventListener('click', function (evt) {
   const el = findAnchorTag(evt.target);
   const href = el?.getAttribute('href');
   if (el && href) {
+    if (href.startsWith('#')) {
+      return;
+    }
     // if the URL either starts with the base url
     // or is a relative URL, then handle the link
     // as a single page application link.
