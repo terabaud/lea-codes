@@ -45,7 +45,14 @@ sphere.rotation.y = 45 * DEG;
 
 ### Organizing in groups
 
-You can organize your objects in groups and then
+You can organize your objects in groups and then set the position and orientation of the group.
+
+```js
+const group = new THREE.Group();
+group.add(sphere);
+
+group.position.set(1, 1, 1);
+```
 
 ### Iterating through the scene
 
