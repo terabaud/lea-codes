@@ -52,3 +52,5 @@ These methods provide different draw modes:
 - `LINES`: draw lines on screen
 - `TRIANGLES`: draw filled triangles on screen
 - `TRIANGLE_STRIP`: like triangles, but the 4th record in the buffer reuses the 2nd and 3rd record in the buffer and so on.
+
+When `drawArrays` is called, the vertex and fragment shaders come into play.

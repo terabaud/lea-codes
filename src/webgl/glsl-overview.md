@@ -25,7 +25,7 @@ layout: 'layouts/content.html'
 
 - Vectors can be accessed by its properties, named `x`, `y`, `z`, `w`.
 - Because the vector data type is also used for colors, the components can also be accessed via `r`, `g`, `b`, `a`.
-- For accessing texture coords, there are also the properties `s`, `t`, `p`, `q` (not very commonly used).
+- For accessing texture coordinates, there are also the aliases `s`, `t`, `p`, `q`
 
 ### Vector swizzling
 
