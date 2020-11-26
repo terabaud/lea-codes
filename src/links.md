@@ -1,6 +1,7 @@
 ---
 title: 'Links'
 layout: 'layouts/content.html'
+variant: 'toc'
 ---
 
 # Links

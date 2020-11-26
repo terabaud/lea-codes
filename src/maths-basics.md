@@ -1,6 +1,7 @@
 ---
 title: 'Maths basics'
 layout: 'layouts/content.html'
+variant: 'toc'
 ---
 
 # Maths basics

@@ -1,6 +1,7 @@
 ---
 title: 'About Three.js'
 layout: 'layouts/content.html'
+variant: 'toc'
 ---
 
 # Three.js

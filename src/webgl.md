@@ -1,6 +1,7 @@
 ---
 title: 'About WebGL'
 layout: 'layouts/content.html'
+variant: 'toc'
 ---
 
 # About Vanilla WebGL

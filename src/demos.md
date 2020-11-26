@@ -2,6 +2,7 @@
 title: 'Demos'
 description: 'This pages is a source of information for WebGL'
 layout: 'layouts/content.html'
+variant: 'toc'
 ---
 
 # Demos
