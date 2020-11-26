@@ -12,6 +12,7 @@
       flex-shrink: 0;
       flex-grow: 1;
       flex-basis: 100%;
+
       counter-increment: ol-counter;
       a {
         display: block;
@@ -19,7 +20,6 @@
         padding: $size--300;
         background: $grey--300;
         border-radius: 1rem;
-        margin: $size--100 0;
         color: #fff;
         text-decoration: none;
 
@@ -56,8 +56,13 @@
         }
       }
       @media (min-width: 768px) {
-        flex-basis: 32%;
+        margin: 6px 4px;
+        flex-basis: calc(33% - 8px);
         flex-grow: 0;
+        a {
+          height: 100%;
+          min-height: 8rem;
+        }
       }
     }
   }
