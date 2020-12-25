@@ -1,5 +1,6 @@
 ---
 title: About WebGL
+description: WebGL core concepts
 layout: layouts/content.html
 variant: toc
 author: Lea Rosema

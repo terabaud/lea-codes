@@ -1,5 +1,6 @@
 ---
 title: Model Loader
+description: Dealing with different 3D model formats in three.js
 layout: layouts/content.html
 tags:
   - three

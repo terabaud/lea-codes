@@ -1,5 +1,6 @@
 ---
 title: Materials
+description: Three.js materials.
 layout: layouts/content.html
 tags:
   - three

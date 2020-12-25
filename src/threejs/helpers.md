@@ -1,5 +1,6 @@
 ---
 title: Helpers
+description: Three.js helper classes
 layout: layouts/content.html
 tags:
   - three

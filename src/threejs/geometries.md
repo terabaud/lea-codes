@@ -1,5 +1,6 @@
 ---
 title: Geometries
+description: Three.js geometries
 layout: layouts/content.html
 tags:
   - three

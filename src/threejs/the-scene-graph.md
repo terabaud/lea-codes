@@ -1,5 +1,6 @@
 ---
 title: The scene graph
+description: The scene graph in Three.js
 layout: layouts/content.html
 author: Lea Rosema
 ---

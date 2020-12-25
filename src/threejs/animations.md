@@ -1,5 +1,6 @@
 ---
 title: Animations
+description: several ways to add animations in Three.js
 layout: layouts/content.html
 tags:
   - three

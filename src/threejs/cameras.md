@@ -1,5 +1,6 @@
 ---
 title: Cameras
+description: Three.js cameras
 layout: layouts/content.html
 tags:
   - three

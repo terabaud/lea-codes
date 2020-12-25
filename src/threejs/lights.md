@@ -1,5 +1,6 @@
 ---
 title: Lights
+description: Three.js lights
 layout: layouts/content.html
 tags:
   - three

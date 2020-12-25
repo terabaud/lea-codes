@@ -1,5 +1,6 @@
 ---
 title: Hello Three.js
+description: Working with Vectors in Three.js
 layout: layouts/content.html
 tags:
   - three

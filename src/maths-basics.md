@@ -1,5 +1,6 @@
 ---
 title: Maths basics
+descriptoin: Maths basics
 layout: layouts/content.html
 variant: toc
 author: Lea Rosema

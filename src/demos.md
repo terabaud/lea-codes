@@ -1,6 +1,6 @@
 ---
 title: Demos
-description: This pages is a source of information for WebGL
+description: Links to several WebGL demos
 layout: layouts/content.html
 variant: toc
 author: Lea Rosema

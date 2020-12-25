@@ -1,5 +1,6 @@
 ---
 title: Hello Three.js
+description: Getting started with three.js
 layout: layouts/content.html
 tags:
   - three

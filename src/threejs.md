@@ -1,5 +1,6 @@
 ---
 title: About Three.js
+description: A rough overview of Three.js
 layout: layouts/content.html
 variant: toc
 author: Lea Rosema

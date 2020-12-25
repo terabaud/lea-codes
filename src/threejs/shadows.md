@@ -1,5 +1,6 @@
 ---
 title: Shadows
+description: Casting shadows with Three.js
 layout: layouts/content.html
 tags:
   - three
