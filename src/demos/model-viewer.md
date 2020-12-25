@@ -1,7 +1,8 @@
 ---
-title: 'WebGL demos – Model Viewer'
-description: 'A THREE.js based GLTF model viewer'
-layout: 'layouts/demos/model-viewer.html'
+title: WebGL demos – Model Viewer
+description: A THREE.js based GLTF model viewer
+layout: layouts/demos/model-viewer.html
+author: Lea Rosema
 ---
 
 # A Model viewer

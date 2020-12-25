@@ -1,6 +1,7 @@
 ---
-title: 'About WebGL – WebGL pipeline'
-layout: 'layouts/content.html'
+title: About WebGL – WebGL pipeline
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # About WebGL

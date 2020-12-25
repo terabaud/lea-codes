@@ -1,7 +1,8 @@
 ---
-title: 'Contribution guidelines'
-description: 'Contribution guidelines'
-layout: 'layouts/content.html'
+title: Contribution guidelines
+description: Contribution guidelines
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # Contribution Guidelines

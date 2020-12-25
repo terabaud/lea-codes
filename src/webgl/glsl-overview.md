@@ -1,6 +1,7 @@
 ---
-title: 'About WebGL – GLSL Overview'
-layout: 'layouts/content.html'
+title: About WebGL – GLSL Overview
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # About WebGL

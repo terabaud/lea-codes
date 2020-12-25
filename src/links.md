@@ -1,7 +1,8 @@
 ---
-title: 'Links'
-layout: 'layouts/content.html'
-variant: 'toc'
+title: Links
+layout: layouts/content.html
+variant: toc
+author: Lea Rosema
 ---
 
 # Links

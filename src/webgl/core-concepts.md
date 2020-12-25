@@ -1,6 +1,7 @@
 ---
-title: 'WebGL core concepts'
-layout: 'layouts/content.html'
+title: WebGL core concepts
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # About WebGL

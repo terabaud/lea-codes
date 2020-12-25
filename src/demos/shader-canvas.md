@@ -1,7 +1,8 @@
 ---
-title: 'WebGL demos – Shader Canvas'
-description: 'A Shader editor'
-layout: 'layouts/demos/shader-canvas.html'
+title: WebGL demos – Shader Canvas
+description: A Shader editor
+layout: layouts/demos/shader-canvas.html
+author: Lea Rosema
 ---
 
 # Shader canvas

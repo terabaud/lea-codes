@@ -1,7 +1,10 @@
 ---
-title: 'Helpers'
-layout: 'layouts/content.html'
-tags: ['three', 'hello-world']
+title: Helpers
+layout: layouts/content.html
+tags:
+  - three
+  - hello-world
+author: Lea Rosema
 ---
 
 # Three.js

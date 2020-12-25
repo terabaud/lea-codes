@@ -1,7 +1,11 @@
 ---
-title: 'Model Loader'
-layout: 'layouts/content.html'
-tags: ['three', 'gltf', 'models']
+title: Model Loader
+layout: layouts/content.html
+tags:
+  - three
+  - gltf
+  - models
+author: Lea Rosema
 ---
 
 # Three.js

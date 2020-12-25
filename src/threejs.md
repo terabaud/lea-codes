@@ -1,7 +1,8 @@
 ---
-title: 'About Three.js'
-layout: 'layouts/content.html'
-variant: 'toc'
+title: About Three.js
+layout: layouts/content.html
+variant: toc
+author: Lea Rosema
 ---
 
 # Three.js

@@ -1,7 +1,8 @@
 ---
-title: 'Privacy policy'
-description: 'Privacy policy for lea codes'
-layout: 'layouts/content.html'
+title: Privacy policy
+description: Privacy policy for lea codes
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 ## Privacy Policy for Lea codes

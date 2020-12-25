@@ -1,7 +1,8 @@
 ---
-title: 'Code of Conduct'
-description: 'Code of Conduct'
-layout: 'layouts/content.html'
+title: Code of Conduct
+description: Code of Conduct
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # Contributor Covenant Code of Conduct

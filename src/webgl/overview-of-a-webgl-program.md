@@ -1,6 +1,7 @@
 ---
-title: 'About WebGL – Overview of a webgl program'
-layout: 'layouts/content.html'
+title: About WebGL – Overview of a webgl program
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # About WebGL

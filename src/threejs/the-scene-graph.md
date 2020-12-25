@@ -1,6 +1,7 @@
 ---
-title: 'The scene graph'
-layout: 'layouts/content.html'
+title: The scene graph
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # Three.js

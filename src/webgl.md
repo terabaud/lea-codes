@@ -1,7 +1,8 @@
 ---
-title: 'About WebGL'
-layout: 'layouts/content.html'
-variant: 'toc'
+title: About WebGL
+layout: layouts/content.html
+variant: toc
+author: Lea Rosema
 ---
 
 # About Vanilla WebGL

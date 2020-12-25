@@ -1,7 +1,10 @@
 ---
-title: 'Lights'
-layout: 'layouts/content.html'
-tags: ['three', 'lights']
+title: Lights
+layout: layouts/content.html
+tags:
+  - three
+  - lights
+author: Lea Rosema
 ---
 
 # Three.js

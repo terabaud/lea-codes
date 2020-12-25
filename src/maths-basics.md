@@ -1,7 +1,8 @@
 ---
-title: 'Maths basics'
-layout: 'layouts/content.html'
-variant: 'toc'
+title: Maths basics
+layout: layouts/content.html
+variant: toc
+author: Lea Rosema
 ---
 
 # Maths basics

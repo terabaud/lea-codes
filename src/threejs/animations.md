@@ -1,7 +1,10 @@
 ---
-title: 'Animations'
-layout: 'layouts/content.html'
-tags: ['three', 'animations']
+title: Animations
+layout: layouts/content.html
+tags:
+  - three
+  - animations
+author: Lea Rosema
 ---
 
 # Three.js

@@ -1,7 +1,10 @@
 ---
-title: 'Hello Three.js'
-layout: 'layouts/content.html'
-tags: ['three', 'hello-world']
+title: Hello Three.js
+layout: layouts/content.html
+tags:
+  - three
+  - hello-world
+author: Lea Rosema
 ---
 
 # Three.js

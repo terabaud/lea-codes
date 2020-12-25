@@ -1,7 +1,10 @@
 ---
-title: 'Maths basics'
-layout: 'layouts/content.html'
-tags: ['maths', 'vectors']
+title: Maths basics
+layout: layouts/content.html
+tags:
+  - maths
+  - vectors
+author: Lea Rosema
 ---
 
 # Maths basics

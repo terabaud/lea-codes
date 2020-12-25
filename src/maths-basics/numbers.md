@@ -1,7 +1,10 @@
 ---
-title: 'Maths basics'
-layout: 'layouts/content.html'
-tags: ['maths', 'numbers']
+title: Maths basics
+layout: layouts/content.html
+tags:
+  - maths
+  - numbers
+author: Lea Rosema
 ---
 
 # Maths basics

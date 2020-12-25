@@ -1,7 +1,8 @@
 ---
-title: 'Home'
-description: 'This pages is a source of information for WebGL'
-layout: 'layouts/home.html'
+title: Home
+description: This pages is a source of information for WebGL
+layout: layouts/home.html
+author: Lea Rosema
 ---
 
 # Welcome to Lea codes

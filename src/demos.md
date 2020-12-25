@@ -1,8 +1,9 @@
 ---
-title: 'Demos'
-description: 'This pages is a source of information for WebGL'
-layout: 'layouts/content.html'
-variant: 'toc'
+title: Demos
+description: This pages is a source of information for WebGL
+layout: layouts/content.html
+variant: toc
+author: Lea Rosema
 ---
 
 # Demos

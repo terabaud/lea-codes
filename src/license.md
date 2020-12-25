@@ -1,7 +1,8 @@
 ---
-title: 'License'
-description: 'License'
-layout: 'layouts/content.html'
+title: License
+description: License
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # MIT License

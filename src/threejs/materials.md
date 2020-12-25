@@ -1,7 +1,10 @@
 ---
-title: 'Materials'
-layout: 'layouts/content.html'
-tags: ['three', 'materials']
+title: Materials
+layout: layouts/content.html
+tags:
+  - three
+  - materials
+author: Lea Rosema
 ---
 
 # Three.js

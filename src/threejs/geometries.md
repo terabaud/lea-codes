@@ -1,7 +1,10 @@
 ---
-title: 'Geometries'
-layout: 'layouts/content.html'
-tags: ['three', 'geometries']
+title: Geometries
+layout: layouts/content.html
+tags:
+  - three
+  - geometries
+author: Lea Rosema
 ---
 
 # Three.js

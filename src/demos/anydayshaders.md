@@ -1,7 +1,8 @@
 ---
-title: 'WebGL demos – Shader Canvas'
-description: 'A THREE.js based GLTF model viewer'
-layout: 'layouts/content.html'
+title: WebGL demos – Shader Canvas
+description: A THREE.js based GLTF model viewer
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # Anydayshaders

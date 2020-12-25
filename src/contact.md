@@ -1,7 +1,8 @@
 ---
-title: 'Contact'
-description: 'Contact page'
-layout: 'layouts/content.html'
+title: Contact
+description: Contact page
+layout: layouts/content.html
+author: Lea Rosema
 ---
 
 # Contact
