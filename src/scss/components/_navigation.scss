@@ -6,8 +6,8 @@
   bottom: 0;
   z-index: 1;
   background: var(--nav-bg);
-  clip-path: circle(0% at top right);
-  transition: clip-path 1s ease;
+  
+  display: none;
 
   & ~ main {
     padding-top: 100px;
@@ -27,7 +27,7 @@
     @media (min-height: 500px) {
       justify-content: center;
       flex-direction: column;
-
+      
       li {
         width: 100%;
         padding: 0.5em 0;
@@ -62,14 +62,21 @@
 }
 
 button[aria-expanded='true'] + .navigation {
-  clip-path: circle(200% at top right);
-  right: 0;
-  ul {
-    opacity: 1;
+  display: block;
+  clip-path: circle(0% at top right);
+  transition: clip-path 1s ease;
+
+  &.animate {
+    clip-path: circle(200% at top right);
+    right: 0;
+    ul {
+      opacity: 1;
+    }
   }
+  
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .navigation {
     position: fixed;
     top: 0;
@@ -78,6 +85,7 @@ button[aria-expanded='true'] + .navigation {
     bottom: auto;
     clip-path: none;
     background: var(--nav-bg);
+    display: block;
 
     ul {
       opacity: 1;

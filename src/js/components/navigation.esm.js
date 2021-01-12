@@ -30,6 +30,7 @@ function load(href, pushState) {
       history.pushState({}, dTitle, href);
     }
     window.scrollTo(0, 0);
+    container.focus();
   };
   xhr.onerror = () => {
     // S2Pages workaround, when the auth cookie expires
