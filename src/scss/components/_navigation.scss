@@ -1,4 +1,10 @@
 .navigation {
+  & ~ main {
+    padding-top: 100px;
+  }
+}
+
+.navigation__layer {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,10 +14,6 @@
   background: var(--nav-bg);
   
   display: none;
-
-  & ~ main {
-    padding-top: 100px;
-  }
 
   ul {
     opacity: 0;
@@ -61,7 +63,7 @@
   }
 }
 
-button[aria-expanded='true'] + .navigation {
+button[aria-expanded='true'] + .navigation__layer {
   display: block;
   clip-path: circle(0% at top right);
   transition: clip-path 1s ease;
@@ -73,11 +75,10 @@ button[aria-expanded='true'] + .navigation {
       opacity: 1;
     }
   }
-  
 }
 
 @media (min-width: 1000px) {
-  .navigation {
+  .navigation__layer {
     position: fixed;
     top: 0;
     left: 0;

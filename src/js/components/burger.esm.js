@@ -1,6 +1,6 @@
 const $ = document.querySelector.bind(document);
 const burger = $('.burger');
-const menu = $('.navigation');
+const menu = $('.navigation__layer');
 
 if (burger) {
   burger.addEventListener('click', (e) => {
