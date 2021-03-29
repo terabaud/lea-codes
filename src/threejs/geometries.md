@@ -38,33 +38,14 @@ scene.add(mesh);
 
 All primitive geometries are available as a [`Geometry`](https://threejs.org/docs/index.html#api/en/core/Geometry) and as a [`BufferGeometry`](https://threejs.org/docs/index.html#api/en/core/BufferGeometry).
 
-The [`Geometry`](https://threejs.org/docs/index.html#api/en/core/Geometry) based classes are more user-friendly, whereas the [`BufferGeometry`](https://threejs.org/docs/index.html#api/en/core/BufferGeometry) based classes are more efficient.
+All geometries are based on [`BufferGeometry`](https://threejs.org/docs/index.html#api/en/core/BufferGeometry).
 
 ### Building a geometry from scratch
 
-A geometry consists of faces. Faces take 3 vertices for a triangle (using `Face3`).
+Check out the official examples:
 
-Example by [@mattdesl](https://twitter.com/mattdesl/):
-
-```js
-// A custom geometry
-const geometry = new THREE.Geometry();
-
-// Define some vertices
-geometry.vertices = [
-  new THREE.Vector3(-0.5, 0.5, 0),
-  new THREE.Vector3(0.5, -0.5, 0),
-  new THREE.Vector3(-0.5, -0.5, 0),
-];
-
-// Define some faces
-geometry.faces = [new THREE.Face3(0, 1, 2)];
-
-// Update the face normals
-geometry.computeFaceNormals();
-```
-
-- [Demo on glitch](https://glitch.com/edit/#!/three-demo-geometry?path=sketch.js%3A1%3A0)
+- [BufferGeometry with indexed faces](https://threejs.org/examples/#webgl_buffergeometry_indexed)
+- [BufferGeometry with non-indexed faces](https://threejs.org/examples/#webgl_buffergeometry)
 
 ### Using SVG paths to create geometries
 
@@ -83,16 +64,15 @@ To create a geometry from a font, you can use [`TextGeometry`](https://threejs.o
 
 ### Related documentation
 
-- [`Geometry`](https://threejs.org/docs/index.html#api/en/core/Geometry)
 - [`BufferGeometry`](https://threejs.org/docs/index.html#api/en/core/BufferGeometry)
-- [`BoxGeometry`](https://threejs.org/docs/index.html#api/en/geometries/BoxGeometry) | [`BoxBufferGeometry`](https://threejs.org/docs/index.html#api/en/geometries/BoxBufferGeometry)
-- [`ExtrudeGeometry`](https://threejs.org/docs/index.html#api/en/geometries/ExtrudeGeometry) | [`ExtrudeBufferGeometry`](https://threejs.org/docs/index.html#api/en/geometries/ExtrudeBufferGeometry)
-- [`IcosahedronGeometry`](https://threejs.org/docs/index.html#api/en/geometries/IcosahedronGeometry) | [`IcosahedronBufferGeometry`](https://threejs.org/docs/index.html#api/en/geometries/IcosahedronBufferGeometry)
-- [`PlaneGeometry`](https://threejs.org/docs/index.html#api/en/geometries/PlaneGeometry) | [`PlaneBufferGeometry`](https://threejs.org/docs/index.html#api/en/geometries/PlaneBufferGeometry)
-- [`ShapeGeometry`](https://threejs.org/docs/index.html#api/en/geometries/ShapeGeometry) | [`ShapeBufferGeometry`](https://threejs.org/docs/index.html#api/en/geometries/ShapeBufferGeometry)
-- [`SphereGeometry`](https://threejs.org/docs/index.html#api/en/geometries/SphereGeometry) | [`SphereBufferGeometry`](https://threejs.org/docs/index.html#api/en/geometries/SphereBufferGeometry)
-- [`TextGeometry`](https://threejs.org/docs/index.html#api/en/geometries/TextGeometry) | [`TextBufferGeometry`](https://threejs.org/docs/index.html#api/en/geometries/TextGeometry)
-- [`TorusGeometry`](https://threejs.org/docs/index.html#api/en/geometries/TorusGeometry) | [`TorusBufferGeometry`](https://threejs.org/docs/index.html#api/en/geometries/TorusBufferGeometry)
+- [`BoxGeometry`](https://threejs.org/docs/index.html#api/en/geometries/BoxGeometry)
+- [`ExtrudeGeometry`](https://threejs.org/docs/index.html#api/en/geometries/ExtrudeGeometry)
+- [`IcosahedronGeometry`](https://threejs.org/docs/index.html#api/en/geometries/IcosahedronGeometry)
+- [`PlaneGeometry`](https://threejs.org/docs/index.html#api/en/geometries/PlaneGeometry)
+- [`ShapeGeometry`](https://threejs.org/docs/index.html#api/en/geometries/ShapeGeometry)
+- [`SphereGeometry`](https://threejs.org/docs/index.html#api/en/geometries/SphereGeometry)
+- [`TextGeometry`](https://threejs.org/docs/index.html#api/en/geometries/TextGeometry)
+- [`TorusGeometry`](https://threejs.org/docs/index.html#api/en/geometries/TorusGeometry)
 
 ### See also
 
