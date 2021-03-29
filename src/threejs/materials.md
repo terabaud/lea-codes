@@ -22,7 +22,12 @@ A [`Material`](https://threejs.org/docs/index.html#api/en/materials/Material) is
 
 ### MeshBasicMaterial
 
-[`MeshBasicMaterial`](https://threejs.org/docs/index.html#api/en/materials/MeshBasicMaterial) is for drawing geometries in a flat or wireframe model.
+[`MeshBasicMaterial`](https://threejs.org/docs/index.html#api/en/materials/MeshMatcapMaterial) is a basic material with a fixed texture or color. Not affected by lights.
+
+### MeshMatcapMaterial
+
+[`MeshMatcapMaterial`](https://threejs.org/docs/index.html#api/en/materials/MeshMatcapMaterial) is defined by a Matcap, which encodes the material color and shading.
+
 Not affected by lights.
 
 ### MeshLambertMaterial
