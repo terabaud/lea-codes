@@ -36,7 +36,8 @@ scene.add(mesh);
 
 ### Geometry vs BufferGeometry
 
-All primitive geometries are available as a [`Geometry`](https://threejs.org/docs/index.html#api/en/core/Geometry) and as a [`BufferGeometry`](https://threejs.org/docs/index.html#api/en/core/BufferGeometry).
+THREE.js releases prior to version `r125` had a `Geometry` type next to `BufferGeometry`.
+`Geometry` is now deprecated and removed from its core.
 
 All geometries are based on [`BufferGeometry`](https://threejs.org/docs/index.html#api/en/core/BufferGeometry).
 
