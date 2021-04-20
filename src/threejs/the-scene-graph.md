@@ -58,13 +58,4 @@ group.position.set(1, 1, 1);
 
 ### Iterating through the scene
 
-```js
-function traverseScene(sceneOrGroup) {
-  for (let item of sceneOrGroup.children) {
-    console.log(item);
-    if (item.children && item.children.length > 0) {
-      traverseScene(item);
-    }
-  }
-}
-```
+You can traverse through a scene or group via `scene.traverse()` or `scene.traverseVisible()`.
