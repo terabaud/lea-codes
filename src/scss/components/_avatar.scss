@@ -1,0 +1,17 @@
+img[src],
+shader-canvas[aria-label] {
+  &.avatar {
+    float: right;
+    width: 40%;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    border: 0.25rem solid $grey--300;
+    transition: transform ease 200ms;
+
+    &:hover {
+      transform: rotate(5deg);
+    }
+  }
+}

@@ -17,6 +17,8 @@
 @import 'utils/visually-hidden';
 @import 'utils/full-fixed';
 @import 'utils/pixellated';
+@import 'utils/pull-right';
+@import 'utils/circle';
 
 // =================================
 // Components
@@ -33,3 +35,4 @@
 @import 'components/three-model-viewer';
 @import 'components/wrapper';
 @import 'components/toc';
+@import 'components/avatar';

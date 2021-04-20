@@ -63,7 +63,7 @@ function findAnchorTag(el, maxNests = 3) {
 }
 
 window.addEventListener('click', function (evt) {
-  let baseUrl = $('x-base')?.getAttribute('href') || '/';
+  let baseUrl = $('meta[name="x-base"]')?.getAttribute('content') || '/';
   const el = findAnchorTag(evt.target);
   const href = el?.getAttribute('href');
   if (el && href) {

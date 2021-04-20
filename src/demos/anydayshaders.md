@@ -14,5 +14,6 @@ The background of this site was also a contribution to anydayshaders, done by [L
 - Check out [ilithya's instagram profile](https://www.instagram.com/ilithya_net/) for her digital shader art
 - Check out [anydayshaders on github by ilithya](https://github.com/ilithya/anydayshaders)
 - Search for [#anydayshaders](https://twitter.com/search?q=anydayshaders) on twitter.
+- Check out [my #anydayshaders collection on CodePen](https://codepen.io/collection/XpkLbQ)
 
 [back to demos](../)
