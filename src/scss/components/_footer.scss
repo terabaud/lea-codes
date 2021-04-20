@@ -3,29 +3,34 @@
   bottom: 0;
   left: 0;
   right: 0;
+  height: auto;
 
   background: black;
   color: white;
-  padding: 1em;
+  padding: 1rem;
+
   p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
     text-align: center;
   }
 
   nav {
     max-width: 1000px;
     margin: 0 auto;
-    padding: $size--600;
+    padding: $size--100 $size--600;
     display: flex;
     ul {
       flex: 1;
       max-width: 200px;
-      font-size: 0.8em;
+      font-size: 1.1rem;
       list-style: none;
       padding: 0;
       margin: 0;
 
       li {
         display: block;
+        margin: 0.6rem 0;
         a {
           text-decoration: none;
 
