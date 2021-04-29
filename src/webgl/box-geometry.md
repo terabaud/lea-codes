@@ -1,7 +1,9 @@
 ---
-title: About WebGL – WebGL pipeline
+title: Box Geometry
 layout: layouts/content.html
 author: Lea Rosema
+tags:
+  - webgl
 ---
 
 # About WebGL
