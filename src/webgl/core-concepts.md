@@ -2,6 +2,8 @@
 title: WebGL core concepts
 layout: layouts/content.html
 author: Lea Rosema
+tags:
+  - webgl
 ---
 
 # About WebGL

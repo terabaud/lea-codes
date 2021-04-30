@@ -2,6 +2,8 @@
 title: About WebGL – Passing data
 layout: layouts/content.html
 author: Lea Rosema
+tags:
+  - webgl
 ---
 
 # About WebGL
@@ -32,6 +34,8 @@ function loadImage(url) {
   });
 }
 ```
+
+Instead of an image, you can also use a `<video>` element or another `<canvas>` element, or `ImageData`.
 
 ### Loading images into WebGL
 
@@ -73,6 +77,8 @@ To update or partially update texture data, you can use [`texSubImage2D`](https:
 
 - `TEXTURE_WRAP_S` and `TEXTURE_WRAP_T`: this specifies what happens when you specify texture values outside the range `[0..1]`. The default is `REPEAT` (tiling). Another option is `MIRRORED_REPEAT`. `CLAMP_TO_EDGE` clamps the texture to the edges.
 - `TEXTURE_MIN_FILTER` and `TEXTURE_MAG_FILTER`: options are `LINEAR` (blurry upscaling), and `NEAREST` (pixelated upscaling)
+
+One limitation of textures is the need to have sizes which are powers of two (64,128,256,...) if you make use of mipmapping or repeated texture wrapping. Mipmapping means: the GPU saves smaller versions of your texture down to 2x2. Check out the [wikipedia mipmap article](https://en.wikipedia.org/wiki/Mipmap) for a detailed description.
 
 For more details about texture minification and magnification filtering, see this [wikipedia article](https://en.wikipedia.org/wiki/Texture_filtering).
 
