@@ -2,6 +2,8 @@
 title: Maths basics
 layout: layouts/content.html
 author: Lea Rosema
+tags:
+  - math
 ---
 
 # Maths basics
@@ -32,6 +34,8 @@ Above, you can see an example of the identity matrix, this behaves like the numb
 
 ### 2D transformation matrices
 
+#### Rotation matrix
+
 ```glsl
 mat3 rotate2D(float a) {
   float C = cos(a);
@@ -42,7 +46,11 @@ mat3 rotate2D(float a) {
     vec3( 0, 0, 1.)
   );
 }
+```
 
+#### Translation matrix
+
+```glsl
 mat3 translate2D(vec2 t) {
   return mat3(
     vec3(  1.,  0., 0.),
@@ -50,7 +58,11 @@ mat3 translate2D(vec2 t) {
     vec3( t.x, t.y, 1.)
   );
 }
+```
 
+#### Scale matrix
+
+```glsl
 mat3 scale2D(vec2 s) {
   return mat3(
     vec3( s.x,  0., 0.),
@@ -60,7 +72,7 @@ mat3 scale2D(vec2 s) {
 }
 ```
 
-### Usage
+#### Usage
 
 ```glsl
 const float PI = 3.141592654;
@@ -80,3 +92,74 @@ void main() {
 ```
 
 [Try on CodePen](https://codepen.io/terabaud/pen/jOymzJN?editors=1000)
+
+### 3D transformation matrices
+
+#### Rotation matrices
+
+In 3D space, you can rotate around the X, Y and Z axis:
+
+```glsl
+mat4 rotX(float angle) {
+  float S = sin(angle);
+  float C = cos(angle);
+  return mat4(
+    vec4(1.0, 0, 0, 0),
+    vec4(0  , C, S, 0),
+    vec4(0  ,-S, C, 0),
+    vec4(0  , 0, 0, 1.0)
+  );
+}
+
+mat4 rotY(float angle) {
+  float S = sin(angle);
+  float C = cos(angle);
+  return mat4(
+    vec4(C, 0  ,-S, 0),
+    vec4(0, 1.0, 0, 0),
+    vec4(S, 0  , C, 0),
+    vec4(0, 0  , 0, 1.0)
+  );
+}
+
+mat4 rotZ(float angle) {
+  float S = sin(angle);
+  float C = cos(angle);
+  return mat4(
+    vec4( C, S, 0  , 0),
+    vec4(-S, C, 0  , 0),
+    vec4( 0, 0, 1.0, 0),
+    vec4( 0, 0, 0  , 1.0)
+  );
+}
+```
+
+#### Scale matrix
+
+```glsl
+mat4 scale(vec3 s) {
+  return mat4(
+    vec4(s.x, 0.0, 0.0, 0.0),
+    vec4(0.0, s.y, 0.0, 0.0),
+    vec4(0.0, 0.0, s.z, 0.0),
+    vec4(0.0, 0.0, 0.0, 1.0)
+  );
+}
+```
+
+#### Translation matrix
+
+```glsl
+mat4 translate(vec3 p) {
+  return mat4(
+    vec4(1.0, 0.0, 0.0, 0.0),
+    vec4(0.0, 1.0, 0.0, 0.0),
+    vec4(0.0, 0.0, 1.0, 0.0),
+    vec4(p.x, p.y, p.z, 1.0)
+  );
+}
+```
+
+#### Usage
+
+[Try on CodePen](https://codepen.io/terabaud/pen/LYxeYGX?editors=1000)
