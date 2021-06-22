@@ -1,6 +1,6 @@
 .article {
   background: var(--main-bg);
-  padding: $size--600;
+  padding: $size--400;
   border-radius: $size--400;
   margin-bottom: $size--500;
 
@@ -12,5 +12,11 @@
     width: 100%;
     object-fit: contain;
     margin: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .article {
+    padding: $size--600;
   }
 }

@@ -15,7 +15,7 @@ h5 {
 }
 
 h1 {
-  font-size: $size--800;
+  font-size: $size--700;
   line-height: 1.4;
   color: $papaya-whip--300;
 }
@@ -43,7 +43,7 @@ h5 {
   color: $ruby--200;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
     font-size: $size--500;
   }
