@@ -9,8 +9,7 @@ author: Lea Rosema
 
 <img src="https://avatars.githubusercontent.com/u/949950?v=4" class="avatar" alt="It's me!">
 
-Hi, I'm [Lea](https://twitter.com/terabaud/). I'm a frontend developer and digital artist based in Hamburg, where I happily
-live with my love [Angela](https://twitter.com/agalliat/) since 2018.
+Hi, I'm [Lea](https://twitter.com/terabaud/). I'm a frontend developer and digital artist based in Hamburg.
 
 This is my blog where I write about WebGL and creative coding stuff,
 mostly for personal learning purposes, but maybe this is also helpful for other people :).
